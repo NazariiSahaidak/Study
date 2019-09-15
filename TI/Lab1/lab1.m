@@ -1,0 +1,6 @@
+entropy_of_jpeg = entropy(imread("lab1.png"))
+entropy_of_png = entropy(imread("lab1.png"))
+entropy_of_tiff = entropy(imread("lab1.tiff"))
+printf("Entropy of lab1.jpeg: %d.\n", entropy_of_jpeg)
+printf("Entropy of lab1.png: %d.\n", entropy_of_png)
+printf("Entropy of lab1.tiff: %d.\n", entropy_of_tiff)
